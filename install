@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "installing panel customization ..."
+cp -avr $PWD/pnl/* /usr/share/mint-artwork/xfce/xfce4/xfconf/xfce-perchannel-xml/
+
